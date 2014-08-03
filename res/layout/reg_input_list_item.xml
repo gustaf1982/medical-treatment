@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TextView
+            android:layout_centerVertical="true"
+        	android:id="@+id/reg_field_text"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+       		android:layout_marginLeft="10dp"
+        	android:padding="5dp"
+        	android:text="TextView"
+        	android:textSize="20dp"
+        	android:textStyle="bold" />
+
+    	<ImageButton
+    	    android:layout_centerVertical="true"
+        	android:id="@+id/dropdownmore"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginRight="5dp"
+        	android:background="#ffffff"
+        	android:src="@android:drawable/ic_menu_more" />
+
+    	<EditText
+    	    android:id="@+id/reg_content_text"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerVertical="true"
+    	    android:layout_toLeftOf="@+id/dropdownmore"
+    	    android:background="#ffffff"
+    	    android:gravity="right|center_vertical|end"
+    	    android:hint="输入"
+    	    android:inputType="textPersonName"
+    	    android:padding="5dp"
+    	    android:textSize="20dp"
+    	    android:visibility="gone" >
+    	    
+    	</EditText>
+
+    	<Spinner
+    	    android:id="@+id/spinner1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerVertical="true"
+    	    android:layout_toLeftOf="@+id/dropdownmore"
+    	    android:background="#ffffff"
+    	    android:gravity="right|center_vertical|end" />
+
+    	</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/seperator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@color/back_red" >
+    </LinearLayout>
+
+</LinearLayout>

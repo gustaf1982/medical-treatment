@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reg_linear_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="0dp"
+        android:layout_weight="7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:textStyle="bold"
+            android:padding="0dp"
+            android:textSize="20dp"
+            android:id="@+id/record_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="7;20" />
+
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/record_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/image_bg"
+        android:layout_weight="3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/reg_content"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:hint="Tex" />
+
+            <TextView
+                android:id="@+id/reg_human"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:hint="TextView" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

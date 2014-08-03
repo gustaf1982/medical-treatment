@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MedicalTreatment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">delete</string>
+    
+    
+    <string name="strlog">沿用目前手机用户版的\n页面即可</string>
+    <string name="add_person">添加护理对象</string>
+    <string name="signIn">登录</string>
+    <string name="signUP">注册</string>
+    <string name="insert_item_into">增加条目</string>
+    <string name="regPersonInfo">添加护理对象信息</string>
+    <string name="personName">姓名</string>
+    <string name="personSex_M">男</string>
+    <string name="personSex_F">女</string>
+    <string name="personOld_A">成人</string>
+    <string name="personOld_O">老人</string>
+    <string name="personOld_C">儿童</string>
+    <string name="place">服务地点</string>
+    <string name="place1">  医院</string>
+    <string name="place2">养老院</string>
+    <string name="place3">  家庭</string>
+    <string name="Ok">确 定</string>
+    <string name="star">*</string>
+    <string name="bloodpressure">血压</string>
+    <string name="contact">联系人</string>
+    <string name="phoneNum">手机</string>
+    <string name="btnPlan">护理计划</string>
+    <string name="btnRecord">健康记录</string>
+    <string name="btnExchange">关爱交流</string>
+    <string name="data_submit_title">8:00 洗漱、进食、吃药、量血压、体温。</string>
+    <string name="reminder">提醒：</string>
+    <string name="reminderTxt">提醒：\n\t8:00 洗漱、进食、吃药、量血压、体温</string>
+    <string name="bloodH">高压</string>
+    <string name="bloodL">低压</string>
+    <string name="heartbeat">心跳</string>
+    <string name="bodyTemp">体温</string>
+    <string name="DegreeCelsius">摄氏度</string>
+    <string name="ml">毫升</string>
+    <string name="into">进</string>
+    <string name="out">出</string>
+    <string name="statusSummary">病人状态小结：</string>
+    <string name="submit">提交</string>
+    <string name="plus">+</string>
+    <string name="photo">照片</string>
+    <string name="photos">拍照</string>
+    <string name="scanQR">扫描二维码加入</string>
+    <string name="exit">退出</string>
+    <string name="send">发送</string>
+    <string name="axis">健康时间轴</string>
+	<string name="complete">完成</string>
+    <string name="add">添加</string>
+	<string name="back">返回</string>
+	<string name="setup">设置</string>
+	<string name="app_title">医护助手</string>
+	<string name="fastrecording">快速记录</string>
+	<string name="logview">预览</string>
+	<string name="logReg">记录</string>
+	<string name="quickReg">快速记录</string>
+	<string name="newLog">复制</string>	
+	<string-array name="namefield">
+		<item>8:00</item>
+		<item>10:00</item>
+		<item>12:00</item>
+		<item>14:00</item>
+		<item>16:00</item>
+		<item>18:00</item>
+		<item>20:00</item>
+	</string-array>
+	<string name="state_continue">服务中</string>
+	<string name="state_finish">看护已结束</string>
+	<string name="oldlevel">年龄段</string>
+	<string name="gender">性别</string>
+	<string name="insertpatient">+ 增加看护对象</string>
+	<string name="reg_bodytemp">点击记录</string>
+	<string name="reg_photo">点击拍摄</string>
+	<string name="state_patient">状态</string>
+	<string name="quickrecovery">快速回复</string>
+	<string name="emoticon">表情符号</string>
+	<string name="picture">图片</string>
+	<string name="information_staff">成员信息</string>
+	<string name="newsinform">新消息通知</string>
+	<string name="scansignin">扫描加入</string>
+	<string name="information">信息</string>
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/head_new" />
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.medicaltreatment.view.CircleImageView
+            android:id="@+id/imageView1"
+            android:scaleType="fitXY"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+        <TextView
+            android:id="@+id/carestate"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/phone"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="20dp"
+            android:background="@color/back_red"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="20dp"
+            android:textSize="24dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/gender_olderlevel"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name_text"
+            android:layout_below="@+id/name_text"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:padding="2dp"
+            android:id="@+id/place_care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/gender_olderlevel"
+            android:layout_below="@+id/gender_olderlevel"
+            android:textSize="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/contact_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/place_care"
+            android:layout_below="@+id/place_care"
+            android:padding="2dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/phone_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/contact_tv"
+            android:layout_below="@+id/contact_tv"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/background_red"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_goto_plan"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/design" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/btnPlan" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+	
+    <RelativeLayout
+        android:background="@drawable/background_green"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/btn_goto_recode"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/record" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/btnRecord" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/background_blue"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_goto_chat"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/cross" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/btnExchange" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

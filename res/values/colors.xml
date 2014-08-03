@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="solid_blue">#0000FF</drawable>
+    <drawable name="solid_yellow">#FFFF00</drawable>
+    <color name="solid_blue">#0000FF</color>
+    <color name="solid_yellow">#FFFF00</color>
+    <color name="solid_red">#FF0000</color>
+    <color name="titleBckgrnd">#808080</color>
+    <color name="background">#f0f0f0</color>
+    <color name="back_red">#f895ac</color>  
+    <color name="green_back">#87e8c9</color>
+    <color name="green_btn">#53d769</color>
+    <color name="blue_back">#949af0</color>
+    <color name="gree____">#dcdfe3</color>
+    <color name="white">#f0f0f0</color>
+</resources>
+ 

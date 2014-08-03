@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="150dp"
+    android:layout_height="198dp"
+    android:orientation="vertical" >
+
+    <TextView
+       	android:paddingRight="10dp"
+        android:id="@+id/leftmessagestxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:lines="1"
+        android:textSize="10dp"
+        android:textColor="#ff0000"
+        android:text="TextView" />
+
+    <com.medicaltreatment.view.CircleImageView
+        android:id="@+id/patientphotoimg"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/guang" />
+
+    <TextView
+        android:id="@+id/patientname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="1"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/caremans"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:background="@color/back_red"
+        android:id="@+id/result"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_new" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:scaleType="fitXY"
+        android:src="@drawable/title" />
+
+    <GridView
+        android:padding="10dp"
+        android:id="@+id/gridpatient"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"  
+        android:gravity="center"      
+        android:numColumns="2" >
+    </GridView>
+
+    <Button       
+        android:id="@+id/signInBtn"
+        android:background="@drawable/background_red"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insertpatient" />
+
+</LinearLayout>
